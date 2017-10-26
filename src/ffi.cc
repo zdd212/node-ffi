@@ -86,9 +86,9 @@ NAN_MODULE_INIT(FFI::InitializeBindings) {
   SET_ENUM_VALUE(FFI_WIN64);
 #else
   /* ---- Intel x86 and AMD x86-64 - */
-  SET_ENUM_VALUE(FFI_SYSV);
+ /* SET_ENUM_VALUE(FFI_SYSV);*/
   /* Unix variants all use the same ABI for x86-64  */
-  SET_ENUM_VALUE(FFI_UNIX64);
+ /*  SET_ENUM_VALUE(FFI_UNIX64);*/
 #endif
 
   /* flags for dlopen() */
